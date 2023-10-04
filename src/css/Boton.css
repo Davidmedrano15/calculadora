@@ -1,0 +1,38 @@
+.boton-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 25px;
+  border: 3px solid white;
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: -1px 4px 1px 1px #99c9ff;
+}
+.contenedor-c {
+  margin-top: 10px;
+}
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+}
+.operador {
+  background-color: #606958;
+}
+.operador:hover {
+  background-color: #ff6600;
+}
+.porcentaje {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  gap: 50px;
+  flex: 1 1;
+  margin-left: 140px;
+  margin-top: 0;
+}
